@@ -2,6 +2,8 @@
 
 Customer segmentation project using the **dunnhumby Complete Journey** grocery dataset to identify distinct household shopping patterns using **Python, scikit-learn, and unsupervised machine learning**.
 
+🔗 **Live API:** https://sv25kvhyjw.us-east-1.awsapprunner.com/docs#/ (https://sv25kvhyjw.us-east-1.awsapprunner.com/docs#/)   
+
 ---
 
 ## Overview
