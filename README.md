@@ -2,7 +2,7 @@
 
 Customer segmentation project using the **dunnhumby Complete Journey** grocery dataset to identify distinct household shopping patterns using **Python, scikit-learn, and unsupervised machine learning**.
 
-🔗 **Live API:** https://sv25kvhyjw.us-east-1.awsapprunner.com/docs#/   
+🔗 **Live API:** https://ekcatmkhgt.us-east-1.awsapprunner.com/docs#/   
 
 ---
 
@@ -12,7 +12,7 @@ This project segments grocery households based on differences in **shopping freq
 
 The workflow starts with more than 2.5 million transaction-level records, aggregates them into household-level behavioral features, explores how shopping behavior varies across the customer base, prepares a reduced feature set for clustering, and compares several unsupervised learning approaches.
 
-The final stage profiles the resulting clusters using the original shopping measures and household demographic information so that statistical clusters can be interpreted as useful customer segments.
+The final stage profiles the resulting clusters using the original shopping measures and household demographic information so that statistical clusters can be interpreted as useful customer segments. The API also includes an OpenAI-powered text input route that converts a natural-language household description into the behavioral features used by the existing clustering pipeline.
 
 This repo reflects a full customer segmentation workflow:
 

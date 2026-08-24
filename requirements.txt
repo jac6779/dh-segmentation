@@ -1,8 +1,17 @@
+# Web & API Framework
 fastapi
-uvicorn[standard]
+uvicorn
+pydantic
+
+# Data Manipulation
 pandas
 numpy
+#scikit-learn==1.5.1
 scikit-learn==1.4.2
-joblib==1.4.2
-pydantic
-feature-engine
+joblib
+
+# LLM Environ
+python-dotenv
+
+# OpenAI
+openai>=1.0.0
