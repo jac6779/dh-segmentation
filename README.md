@@ -1,4 +1,4 @@
-# Dunnhumby Grocery Household Segmentation
+# Household Grocery Shopping Segmentation
 
 Customer segmentation project using the **dunnhumby Complete Journey** grocery dataset to identify distinct household shopping patterns using **Python, scikit-learn, and unsupervised machine learning**.
 
