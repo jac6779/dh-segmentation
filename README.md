@@ -285,9 +285,9 @@ Evaluation results on non-noise observations:
 
 Higher silhouette and Calinski-Harabasz scores are generally preferred, while a lower Davies-Bouldin score indicates better-separated clusters.
 
-DBSCAN produced the strongest silhouette and Davies-Bouldin scores among the tested configurations, but its results are calculated on the non-noise households and it produces a different number of clusters than the other approaches.
+DBSCAN produced the strongest silhouette and Davies-Bouldin scores among the tested configurations, but its results are calculated on the non-noise households.
 
-KMeans produced a lower silhouette score but the strongest Calinski-Harabasz score and provides a straightforward six-segment structure.
+KMeans (k=6) was selected for its straightforward six-segment structure, strongest Calinski-Harabasz score, and interpretable profiles; DBSCAN scored higher on silhouette but produced only three clusters and excluded noise points.
 
 Because customer segmentation ultimately needs to create groups that are both statistically defensible and useful to the business, model selection is not based on a single clustering metric alone.
 
@@ -320,8 +320,6 @@ This makes it possible to evaluate questions such as:
 - Which households appear more or less recently engaged?
 - Do behavioral segments show meaningful differences in household composition, income, age, or other demographic characteristics?
 - Are small clusters genuinely distinct customer groups or simply statistical edge cases?
-
-The final clustering approach will be selected after considering both model quality and the usefulness of the resulting customer profiles.
 
 ---
 
